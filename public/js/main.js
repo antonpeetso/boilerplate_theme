@@ -14,7 +14,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/index.scss */ "./src/css/index.scss");
 
-console.log("fuck aina bre123");
+console.log("welcome");
 
 /***/ }),
 

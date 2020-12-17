@@ -10,7 +10,9 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
   <a class="skip-link screen-reader-text" href="#content"><?php _e('Skip to content', 'boilerplate_theme'); ?></a>
-    <?php
-    get_template_part('template-parts/menu', 'navbar');
-    ?>
-  <div id="content" class="site-content">
+    <div class="container">
+        <?php
+        get_template_part('template-parts/menu', 'navbar');
+        ?>
+    </div>
+  <main id="content" class="site-content">

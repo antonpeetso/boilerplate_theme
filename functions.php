@@ -1,4 +1,5 @@
 <?php
+require_once 'inc/setup.php';
 
 function theme_init() {
     add_theme_support( 'align-wide' );
@@ -8,10 +9,3 @@ function theme_init() {
 
 add_action('init', 'theme_init');
 
-/**
- * Register Custom Navigation Walker
- */
-function register_navwalker(){
-    require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
-}
-add_action( 'after_setup_theme', 'register_navwalker' );

@@ -1,2 +1,2 @@
 import '../css/index.scss';
-console.log("fuck aina bre123");
+console.log("welcome");
