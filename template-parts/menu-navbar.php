@@ -8,12 +8,12 @@
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <?php
             wp_nav_menu(array(
-                'theme_location' => 'primary',
-                'depth' => 2,
-                'container' => '',
-                'menu_class' => 'nav navbar-nav navbar-right-links ml-auto',
-                'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
-                'walker' => new WP_Bootstrap_Navwalker(),
+                "theme_location" => "primary",
+                "depth" => 2,
+                "container" => "",
+                "menu_class" => "nav navbar-nav navbar-right-links ml-auto",
+                "fallback_cb" => "WP_Bootstrap_Navwalker::fallback",
+                "walker" => new WP_Bootstrap_Navwalker(),
             ));
             ?>
         </ul>
