@@ -1,6 +1,14 @@
 @import "bootstrap_mix";
+@import "variables";
 @import "footer";
+@import "navbar";
+@import "blocks";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container {
+  padding: 0 !important;
+}
 
 body {
- //  background-color: red;
+  font-family: 'Montserrat', sans-serif;
 }
