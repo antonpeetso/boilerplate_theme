@@ -1,6 +1,7 @@
 <?php
 require_once "inc/setup.php";
 require_once "inc/customize.php";
+require_once "inc/security.php";
 
 function theme_init()
 {
