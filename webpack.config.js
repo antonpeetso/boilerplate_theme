@@ -7,7 +7,7 @@ const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const cssnano = require( 'cssnano' ); // https://cssnano.co/
 const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' );
-const UglifyJsPlugin = require( 'uglifyjs-webpack-plugin' );
+const TerserPlugin = require("terser-webpack-plugin");
 // JS Directory path.
 const JS_DIR = path.resolve( __dirname, 'src/js' );
 const IMG_DIR = path.resolve( __dirname, 'src/img' );
@@ -78,11 +78,7 @@ module.exports = ( env, argv ) => ({
   optimization: {
     minimizer: [
       new CssMinimizerPlugin(),
-      new UglifyJsPlugin( {
-        cache: false,
-        parallel: true,
-        sourceMap: false
-      } )
+      new TerserPlugin( )
     ]
   },
   plugins: plugins( argv ),
