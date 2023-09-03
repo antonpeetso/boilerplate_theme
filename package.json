@@ -19,8 +19,9 @@
     "defaults"
   ],
   "dependencies": {
-    "bootstrap": "^4.5.3",
-    "jquery": "^3.5.0"
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.5.0",
+    "bootstrap-icons": "^1.10.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
